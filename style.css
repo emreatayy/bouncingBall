@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+.container {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  border-radius: 1px solid red;
+  background-color: yellow;
+  border-radius: 20px;
+}
+#ball {
+  margin-top: 550px;
+  margin-left: 275px;
+  width: 50px;
+  height: 50px;
+  background-color: navy;
+  border-radius: 50px;
+  position: absolute;
+}
+
+.bounce-btn {
+  margin-top: 650px;
+  margin-left: 40%;
+  width: 20%;
+  height: 10%;
+}
+
+.bounce-btn:hover {
+  background-color: cadetblue;
+  color: white;
+  border-radius: 10px;
+}
